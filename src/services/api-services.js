@@ -2,7 +2,7 @@ const dotenv = require("dotenv")
 
 dotenv.config();
 
-const api_anime = process.env.NEXT_PUBLIC_API_BASE_URL
+const api_anime = "https://api.jikan.moe/v4"
 console.log(api_anime);
 
 const getAnimeResponse = async (resource, query) => {
